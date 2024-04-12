@@ -1,50 +1,57 @@
-h1{
-    font-family:'Satisfy';
-    text-align: center;
-    font-size: 75px;
-    color: yellow;
+h1 {
+  font-family: 'Satisfy';
+  text-align: center;
+  font-size: 75px;
+  color: yellow;
 }
 
-h2{
+h2 {
   font-size: larger;
   text-align: center;
 }
-  
-p{
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
+
+
+
 body {
-    background-color: purple;
-    background-image: linear-gradient(purple, black, green);
-    background-repeat: no-repeat;
-    color: white;
-    font-family: 'Lucida Sans';
-    font-size: 18px;
-  }
+  background-color: purple;
+  background-image: linear-gradient(purple, black, green);
+  background-repeat: no-repeat;
+  color: white;
+  font-family: 'Lucida Sans';
+  font-size: 20px;
+  padding-left: 50px; padding-right: 80px;
+}
+
+.title
+{font-size: 50px;
+}
+
+p {
+  text-align: center;
+}
+
 
 img {
-    border-radius: 50%;
-  }
+  border-radius: 50%;
+}
 
-  ul {
-    list-style-type: none;
-    overflow: hidden;
-    text-align: center;
-  }
-  li{
-    display: inline-block;
-    text-decoration: none;
-  
-  }
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+}
 
- a{
+li {
+  display: inline-block;
+  text-decoration: none;
+
+}
+
+a {
   color: yellow;
-  font-size: 20px;
+  font-size: 30px;
   padding-right: 5px;
   padding-bottom: 30;
   text-decoration: none;
 
 }
-  
