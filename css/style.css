@@ -5,20 +5,46 @@ h1{
     color: yellow;
 }
 
+h2{
+  font-size: larger;
+  text-align: center;
+}
+  
+p{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
 body {
     background-color: purple;
     background-image: linear-gradient(purple, black, green);
     background-repeat: no-repeat;
     color: white;
     font-family: 'Lucida Sans';
-    font-size: 18px; 
+    font-size: 18px;
   }
 
 img {
     border-radius: 50%;
   }
- a{ color: yellow;
-    font-size: 20px;
-    list-style-type: style block; 
-    
+
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+  }
+  li{
+    display: inline-block;
+    text-decoration: none;
+  
+  }
+
+ a{
+  color: yellow;
+  font-size: 20px;
+  padding-right: 5px;
+  padding-bottom: 30;
+  text-decoration: none;
+
 }
+  
